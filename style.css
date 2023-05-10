@@ -1,0 +1,135 @@
+
+.nav{
+    background-color: black;
+    color: beige;
+}
+.body{
+    background-color: #0000;
+
+}
+.page{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #0000;
+    color: antiquewhite;
+}
+.logo {
+    font-family: 'Quicksand', sans-serif;
+    color:blue;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600px;
+
+
+}
+.navbar {
+    background-color: #0000;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500px;
+    margin-left: 35px;
+}
+.navbar a{
+    font-size:18px ;
+    gap: 34%;
+    text-decoration: none;
+    font-weight: 50px;
+    margin-left: 35px;
+
+}
+.links{
+    display: grid;
+    justify-content: space-between;
+    margin-left: 130%;
+    margin-top: -70%;
+}
+.work{
+    border-radius: 30%;
+    background-color: blue;
+    /* width: 20%; */
+    height: 13%;
+}
+.content{
+        /* animation: floatImage 5s ease- ease-in-out infinite; */
+
+}
+.pic{
+    /* width: 45%; */
+    /* height: 10%; */
+    border-radius: 50%;
+    animation: floatImage 4s ease-in-out infinite;
+    border: solid blue;
+}
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform:translateY(-2.4rem)
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.content{
+    display: flex;
+}
+.develop{
+    padding-left: 10%;
+    margin-top: 10%;
+    font-size: 1.3rem;
+}
+
+.softwer{
+    color: blue;
+}
+.abouts{
+   text-align: left;
+   margin: 3%;
+}
+.ann{
+    color: blue;
+}
+.abt{
+    display: flex;
+}
+.links{
+    font-size: 50px;
+}
+
+
+.mol1{
+    /* margin-top: 9em; */
+    font-size: 20px;
+    margin: 30px;
+}
+.mol2{
+    margin-top: 15em;
+    /* padding-left: 23em; */
+    /* text-align:; */
+}
+.annses{
+    padding-left: 3em;
+}
+      
+.soft{
+    /* width: 45%; */
+    /* height: 10%; */
+    border-radius: 10%;
+    animation: floatImage 4s ease-in-out infinite;
+    border: solid blue;
+    
+}
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform:translateY(-2.4rem)
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
